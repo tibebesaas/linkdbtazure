@@ -17,7 +17,7 @@ with source_data as (
     union all
     select 2 as id
     union all
-    select 000943 as id
+    select 0943 as id
     )
 
 select *
