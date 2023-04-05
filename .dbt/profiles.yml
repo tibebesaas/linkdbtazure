@@ -1,0 +1,19 @@
+config:
+  send_anonymous_usage_stats: False
+
+dev:
+  outputs:
+
+    dev: # User-Password config
+      type: snowflake
+      account: yf30512.west-us-2.azure
+      user: LOUPICTURE
+      password: Helina@2003
+      role: ACCOUNTADMIN
+      database: ANALYTICS
+      warehouse: COMPUTE_WH
+      schema: DBT_TASFAW
+      threads: 4
+      client_session_keep_alive: False
+
+  target: dev
